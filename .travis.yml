@@ -1,0 +1,11 @@
+language: php
+php:
+- 5.5.9
+- 5.6
+- 5.6.5
+- hhvm
+before_script:
+- composer install --prefer-source --no-interaction --dev
+notifications:
+  slack:
+    secure: u3EgZ/te5fpy6SFlbep0sHNmqdMNH47t4Gp/0hZ+pXjKD4wxS2WqN31jDk/l7+DrRsc9G1wMKgosUxnAl9BggTbV6zaoDIpWCU2iGcj27LXM2xs7cDe4Y4BQM+6dlfClonomxfrVKjfVqlyJwIDLDim2RWfwNk2uN37ZTPqpoul8cnbcZEKmIae0j3s04AGPNmEPGK0VzkGU8uHDYQWJi7Sp8ZAEBCi3/54Y8NIQsxLrLYXUIRWmarVAys/m9HlQ0gRTeHpev1np1Ex1TCk9IECjIa8CqjFEJa14bjrv3UTY/Ysbjsa6hhNmk34tZ3h8LUWhJPybzMMT5hYVKqkP/uXWutFMOyhKdabY75ZrSfv4Wvk/suyQutGIN4Sqq3G0yHJbA4msNnb6fggSKrlkiAZgRHZ6qah5+oWnHq7cVMubgLsCWdBSAefyvlZQOv+mXwttLv4Qn3UfhV/v4ngjqKxP8sHKHevEe5fELqRBeGWA5FE32hsdXI2Qpdh1cyrZdNXj0iuN2uciR3bT70qdugq+r0xz6+2xWkRa4sRDkI2gyb1sbtViT/romKU465XbX3fbyAs/JV4dLgBbqTnBl8JKM9NvrfnJr0CzcLPEFIpGOHQAHNKfrAimKvJFlbbe5SWD/QGg2Wzu2qHmZN7yW6MrHcVGlHjSYW32DZr16rQ=
