@@ -1,0 +1,15 @@
+{
+    "name": "jetstream/jetstream-oauth-facebook",
+    "description": "Adds facebook login capabilities to a jetstreamed laravel project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moritz Ewert",
+            "email": "moritz.ewert@wunderfactory.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jetstream/jetstream": "dev-master"
+    }
+}
